@@ -1,0 +1,17 @@
+# TypeScript / build
+dist/
+*.tsbuildinfo
+node_modules/
+
+# Editor / IDE
+.*.swp
+*~
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+.cache/

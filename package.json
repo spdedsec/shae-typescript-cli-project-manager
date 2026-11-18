@@ -1,0 +1,21 @@
+{
+  "name": "shae-pm",
+  "version": "0.1.0",
+  "description": "SHAE CLI project manager: add, list, update status, and delete projects saved to JSON.",
+  "main": "dist/index.js",
+  "bin": {
+    "shae-pm": "dist/index.js"
+  },
+  "files": ["dist", "README.md", "LICENSE"],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["cli", "project-manager", "typescript", "shae"],
+  "author": "spdedsec",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^7.0.0",
+    "@types/node": "^22.0.0"
+  }
+}
